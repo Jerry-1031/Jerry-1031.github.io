@@ -9,7 +9,7 @@ menu:
   about: /about/ || fa fa-user
 
 avatar:
-  url: /images/avatar.svg
+  url: /images/avatar.png
   rounded: true
 
 social:
