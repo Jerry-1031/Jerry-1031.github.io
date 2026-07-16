@@ -17,7 +17,26 @@ Preview: `http://localhost:4000/`
 npm run new -- post "Title"
 ```
 
+Or directly edit `source/_posts/`. 
+
+Use `![example](/images/posts/title/example.png)` for images.
+
 Posts will be on `source/_posts/Title.md`.
+
+## Posts
+
+Front Matter:
+```
+---
+title: Title
+date: 1970-01-01 08:00:00
+categories:
+  - 笔记
+tags:
+  - 随笔
+mathjax: true
+---
+```
 
 ## Config
 
