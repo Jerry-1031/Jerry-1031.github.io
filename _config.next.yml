@@ -5,7 +5,7 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
-  links: /links/ || fa fa-link
+  友链: /links/ || fa fa-link
   about: /about/ || fa fa-user
 
 avatar:
@@ -24,7 +24,8 @@ links:
 
 footer:
   since: 2026
-  powered: true
+  powered: false
+  copyright: false
 
 creative_commons:
   license: by-nc-sa
