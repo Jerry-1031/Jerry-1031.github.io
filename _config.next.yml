@@ -5,6 +5,7 @@ menu:
   archives: /archives/ || fa fa-archive
   categories: /categories/ || fa fa-th
   tags: /tags/ || fa fa-tags
+  links: /links/ || fa fa-link
   about: /about/ || fa fa-user
 
 avatar:
@@ -13,6 +14,14 @@ avatar:
 
 social:
   GitHub: https://github.com/Jerry-1031 || fab fa-github
+
+links_settings:
+  icon: fa fa-link
+  layout: block
+
+links:
+  Example: https://example.com/
+  Example Org: https://example.org/
 
 footer:
   since: 2026
