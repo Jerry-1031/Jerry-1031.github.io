@@ -1,0 +1,55 @@
+scheme: Gemini
+
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  about: /about/ || fa fa-user
+
+avatar:
+  url: /images/avatar.svg
+  rounded: true
+
+social:
+  GitHub: https://github.com/Jerry-1031 || fab fa-github
+
+footer:
+  since: 2026
+  powered: true
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: false
+  post: false
+  language:
+
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+
+back2top:
+  enable: true
+  sidebar: false
+  scrollpercent: true
+
+reading_progress:
+  enable: true
+  color: '#222'
+  height: 3px
+
+codeblock:
+  copy_button:
+    enable: true
+    style: mac
+
+pjax: true
+motion:
+  enable: true
+  async: false
+
+vendors:
+  internal: local
