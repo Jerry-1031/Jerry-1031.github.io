@@ -1,8 +1,8 @@
-title: Jerry's Blog
+title: Jerry1031's Blog
 subtitle: ''
 description: ''
 keywords:
-author: Jerry
+author: Jerry1031
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -42,6 +42,9 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
+
+marked:
+  smartypants: false
 
 default_category: uncategorized
 category_map:

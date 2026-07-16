@@ -20,8 +20,7 @@ links_settings:
   layout: block
 
 links:
-  Example: https://example.com/
-  Example Org: https://example.org/
+  Xenon: https://jollyxenon.github.io/
 
 footer:
   since: 2026
@@ -54,6 +53,14 @@ codeblock:
   copy_button:
     enable: true
     style: mac
+
+math:
+  every_page: false
+  mathjax:
+    enable: true
+    tags: none
+  katex:
+    enable: false
 
 pjax: true
 motion:

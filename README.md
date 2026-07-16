@@ -1,4 +1,4 @@
-# Jerry-1031.github.io
+# Jerry1031.github.io
 
 Blog based on Hexo 8 and NexT.Gemini.
 
