@@ -28,13 +28,14 @@ Posts will be on `source/_posts/Title.md`.
 Front Matter:
 ```
 ---
-title: Title
+title: 标题
 date: 1970-01-01 08:00:00
 categories:
   - 笔记
 tags:
   - 随笔
 mathjax: true
+excerpt: 简介
 ---
 ```
 
