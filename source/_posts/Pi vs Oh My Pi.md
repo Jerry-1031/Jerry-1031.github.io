@@ -1,8 +1,9 @@
 ---
 title: Pi vs Oh My Pi
 date: 2026-09-01
+updated: 2026-09-01
 categories:
-  - 笔记
+  - 折腾
 tags:
   - Agent
   - AI

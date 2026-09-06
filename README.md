@@ -1,4 +1,4 @@
-# Jerry1031.github.io
+# Jerry-1031.github.io
 
 Blog based on Hexo 8 and NexT.Gemini.
 
@@ -30,6 +30,7 @@ Front Matter:
 ---
 title: 标题
 date: 1970-01-01 08:00:00
+updated: 1970-01-01 08:00:00
 categories:
   - 笔记
 tags:
@@ -37,6 +38,7 @@ tags:
 mathjax: true
 excerpt: 简介
 ---
+<!-- more -->
 ```
 
 ## Config
