@@ -64,6 +64,13 @@ math:
   katex:
     enable: false
 
+# Mermaid diagrams
+mermaid:
+  enable: true
+  theme:
+    light: default
+    dark: dark
+
 pjax: true
 motion:
   enable: true
