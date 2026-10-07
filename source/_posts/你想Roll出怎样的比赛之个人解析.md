@@ -25,7 +25,7 @@ mathjax: true
 整个题目流程图如下，需要算出初始从选队出发，到结局 1-8 的概率，进行 A1Z26 转换。
 
 ```mermaid
-flowchart
+flowchart TD
     A{选队} -- 1/2 --> B[加入星河队伍]
     A -- 1/2 --> C[加入冷火队伍]
 
@@ -67,7 +67,7 @@ flowchart
 将其建模为一个马尔可夫链：记 1-8 节点分别为鼓舞队伍、分析题目、提交答案、猜FM、结局4、结局8、结局1、结局3。
 
 ```mermaid
-flowchart
+flowchart TD
     1 -->|4/5| 2
     1 -->|1/5| 5
     2 -->|5/16| 1
@@ -191,19 +191,15 @@ Q^n&
 有
 $$(I-Q)(I+Q+Q^2+\cdots+Q^{n-1})=I-Q^n$$
 $$I+Q+\cdots+Q^{n-1}=(I-Q)^{-1}(I-Q^n)$$
+
 因为 $Q^n\to0$，所以 $I-Q^n\to I$，于是
-$$I+Q+\cdots+Q^{n-1}
-\to
-(I-Q)^{-1}$$
+$$I+Q+\cdots+Q^{n-1}\to(I-Q)^{-1}$$
+
 无限矩阵等比级数
 $$(I-Q)^{-1}=I+Q+Q^2+Q^3+\cdots$$
+
 因此
-$$\lim_{n\to\infty}T^n
-=
-\begin{pmatrix}
-0&(I-Q)^{-1}R\\
-0&I
-\end{pmatrix}$$
+$$\lim_{n\to\infty}T^n=\begin{pmatrix}0&(I-Q)^{-1}R\\0&I\end{pmatrix}$$
 
 令吸收概率矩阵
 $$H=(I-Q)^{-1}R=R+QR+Q^2R+Q^3R+\cdots$$
