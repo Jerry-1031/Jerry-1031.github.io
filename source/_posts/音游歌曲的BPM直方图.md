@@ -7,6 +7,7 @@ categories:
 tags:
   - 音游
   - 数据分析
+mathjax: true
 ---
 受 [Rhythm game chart difficulty distributions](https://yao981113.github.io/chart_distributions.html) 的启发，绘制 SEGA 系街机音游（舞萌、中二、音击）的 BPM-歌曲数直方图。
 
